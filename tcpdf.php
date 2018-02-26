@@ -2006,6 +2006,47 @@ class TCPDF {
 		// cleanup
 		$this->_destroy(true);
 	}
+	
+	
+	/**
+	* Custom methods
+	* - used when rotating text in table headers
+	*/
+	public function FindXY() {
+		if(!isset($this->xywalter) ) {
+			$this->xywalter = array();
+		}
+		$this->xywalter[] = array($this->GetX(), $this->GetY());
+	}
+	
+	public function FindXY2() {
+		if(!isset($this->xywalter2) ) {
+			$this->xywalter2 = array();
+		}
+		$this->xywalter2[] = array($this->GetX(), $this->GetY());
+	}
+	
+	public function FindXY3() {
+		if(!isset($this->xywalter3) ) {
+			$this->xywalter3 = array();
+		}
+		$this->xywalter3[] = array($this->GetX(), $this->GetY());
+	}
+	
+	public function FindXY4() {
+		if(!isset($this->xywalter4) ) {
+			$this->xywalter4 = array();
+		}
+		$this->xywalter4[] = array($this->GetX(), $this->GetY());
+	}
+	
+	public function FindXY5() {
+		if(!isset($this->xywalter5) ) {
+			$this->xywalter5 = array();
+		}
+		$this->xywalter5[] = array($this->GetX(), $this->GetY());
+	}
+	
 
 	/**
 	 * Set the units of measure for the document.

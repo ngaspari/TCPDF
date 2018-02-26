@@ -1,6 +1,5 @@
 {
 	"name": "ngaspari/tcpdf",
-	"version": "1.2",
 	"homepage": "https://github.com/ngaspari/TCPDF",
 	"type": "library",
 	"description": "Modified version of TCPDF that includes option for setting barcode's bar width",
